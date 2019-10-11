@@ -10,12 +10,15 @@ def reverse_each_word(string)
     index += 1 
     end
 
+index = 0 
 string = ""
-array.collect do |reversed|
-string << reversed   
-string << " "
-end
 
+array.collect do |reversed|
+string << reversed
+  if index + 1 != array.length 
+  string
+  end
+end
 
 return string
 end 
