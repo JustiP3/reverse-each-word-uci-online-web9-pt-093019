@@ -33,22 +33,10 @@ def reverse_each_word(string)
   array = string.split(" ")
   
   #reverse each string element of the array 
-  index = 0 
-  array.collect do |word|
+    array.collect do |word|
     word.reverse
   end
     #reinitialize index and string to 0 
-string = ""
-index = 0
-
-#shovel each element of the array into the string 
-array.collect  do 
-string << array [index]
-#add a space if it is not the last element in the array  
-  if index + 1 != array.length 
-    string << " "
-  end 
-index += 1 
-end 
+ 
 return string
 end 
