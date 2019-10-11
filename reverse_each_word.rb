@@ -8,9 +8,8 @@ def reverse_each_word(string)
     array.collect do |word|
     array[index] = word.reverse
       if index +1 != array.length 
-  string << " "
-  end
- 
+      string << " "
+      end
     index += 1 
     end
 
