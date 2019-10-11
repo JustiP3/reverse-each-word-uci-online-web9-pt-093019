@@ -29,5 +29,13 @@ end
 
 
 def reverse_each_word_using_collect(string)
-
+ #convert string to array 
+  array = string.split(" ")
+  
+  #reverse each string element of the array 
+  index = 0 
+  array.each do |word|
+    array[index] = word.reverse 
+    index += 1
+  end
 end 
