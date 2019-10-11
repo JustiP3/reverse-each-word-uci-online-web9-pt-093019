@@ -36,7 +36,12 @@ def reverse_each_word(string)
     array.collect do |word|
     word.reverse
   end
-    #reinitialize index and string to 0 
- 
+
+string = ""
+array.collect do |reversed|
+string << reversed   
+end
+
+
 return string
 end 
