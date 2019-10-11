@@ -7,6 +7,7 @@ def reverse_each_word(string)
     index = 0 
     array.collect do |word|
     array[index] = word.reverse
+    string << array[index]
       if index +1 != array.length 
       string << " "
       end
