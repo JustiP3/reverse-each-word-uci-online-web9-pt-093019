@@ -43,7 +43,7 @@ string = ""
 index = 0
 
 #shovel each element of the array into the string 
-while index < array.length do 
+array.collect  do 
 string << array [index]
 #add a space if it is not the last element in the array  
   if index + 1 != array.length 
