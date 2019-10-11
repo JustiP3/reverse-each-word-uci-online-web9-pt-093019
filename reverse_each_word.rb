@@ -35,8 +35,8 @@ def reverse_each_word_using_collect(string)
   #reverse each string element of the array 
   index = 0 
   array.collect do |word|
-    array[index] = word.reverse 
-    index += 1
+    word.reverse 
+    
   end
     #reinitialize index and string to 0 
 string = ""
