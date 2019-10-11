@@ -16,7 +16,7 @@ string = ""
 array.collect do |reversed|
 string << reversed
   if index + 1 != array.length 
-  string
+  string << " "
   end
 end
 
