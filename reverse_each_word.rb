@@ -25,3 +25,9 @@ index += 1
 end 
 return string 
 end 
+
+
+
+def reverse_each_word_using_collect(string)
+
+end 
