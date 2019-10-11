@@ -8,9 +8,9 @@ def reverse_each_word(string)
   array.each do |word|
     array[index] = word.reverse 
     index +
-  #reinitial= 1
+  #reinitial1ize index and string to 0 
   end
-  ize index and string to 0 
+  
 string = ""
 index = 0
 
