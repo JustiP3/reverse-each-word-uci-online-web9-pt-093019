@@ -18,6 +18,7 @@ string << reversed
   if index + 1 != array.length 
   string << " "
   end
+  index += 1 
 end
 
 return string
