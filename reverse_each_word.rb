@@ -7,13 +7,13 @@ def reverse_each_word(string)
     index = 0 
     array.collect do |word|
     array[index] = word.reverse
-    index += 1 
-    end
-if index +1 != array.length 
+      if index +1 != array.length 
   string << " "
   end
-  index += 1 
-end
+ 
+    index += 1 
+    end
 
-return string
+ 
+ return string
 end 
