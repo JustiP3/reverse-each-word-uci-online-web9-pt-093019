@@ -7,10 +7,10 @@ def reverse_each_word(string)
   index = 0 
   array.each do |word|
     array[index] = word.reverse 
-    index += 1
+    index +
+  #reinitial= 1
   end
-  
-  #reinitialize index and string to 0 
+  ize index and string to 0 
 string = ""
 index = 0
 
